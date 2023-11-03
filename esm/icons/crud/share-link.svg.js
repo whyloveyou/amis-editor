@@ -1,0 +1,22 @@
+/**
+ * xxd-amis-editor v1.1.2
+ * build time: 2023-10-27
+ * Copyright 2018-2023 @fex
+ */
+
+import * as React from 'react';
+
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+var SvgShareLink = function SvgShareLink(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: "icon",
+    viewBox: "0 0 1024 1024",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M938.667 469.333C915.2 469.333 896 488.533 896 512V917.333c0 12.8-8.533 21.334-21.333 21.334h-768c-12.8 0-21.334-8.534-21.334-21.334V234.667c0-12.8 8.534-21.334 21.334-21.334h362.666c23.467 0 42.667-19.2 42.667-42.666C512 147.2 492.8 128 469.333 128h-384C38.4 128 0 166.4 0 213.333V938.667C0 985.6 38.4 1024 85.333 1024H896c46.933 0 85.333-38.4 85.333-85.333V512c0-23.467-19.2-42.667-42.666-42.667zm72.533-307.2L861.867 12.8C855.467 4.267 844.8 0 832 0c-23.467 0-42.667 19.2-42.667 42.667 0 12.8 4.267 23.466 12.8 29.866l83.2 83.2C554.667 202.667 298.667 488.533 298.667 832c0 23.467 19.2 42.667 42.666 42.667S384 855.467 384 832c0-290.133 206.933-533.333 484.267-586.667l-66.134 66.134c-8.533 6.4-12.8 17.066-12.8 29.866C789.333 364.8 808.533 384 832 384c12.8 0 23.467-4.267 29.867-12.8L1011.2 221.867c8.533-6.4 12.8-17.067 12.8-29.867s-4.267-23.467-12.8-29.867z"
+  })));
+};
+
+export { SvgShareLink as default };
+window.amisEditorVersionInfo={version:'1.1.2',buildTime:'2023-10-27'};

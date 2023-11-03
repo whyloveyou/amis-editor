@@ -1,0 +1,32 @@
+/**
+ * xxd-amis-editor v1.1.2
+ * build time: 2023-10-27
+ * Copyright 2018-2023 @fex
+ */
+
+import * as React from 'react';
+
+var _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+var SvgButton = function SvgButton(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    viewBox: "0 0 16 16",
+    xmlns: "http://www.w3.org/2000/svg",
+    className: "icon"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    fill: "none",
+    fillRule: "evenodd",
+    stroke: "currentColor"
+  }, /*#__PURE__*/React.createElement("path", {
+    strokeLinejoin: "round",
+    d: "M1.5 2.5h13v11h-13z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M4.897 9.785c.38 0 .68-.07.89-.21.245-.17.37-.435.37-.795 0-.24-.06-.435-.175-.575-.12-.145-.295-.24-.53-.285a.881.881 0 0 0 .41-.295.888.888 0 0 0 .146-.51.811.811 0 0 0-.28-.645c-.2-.17-.48-.255-.835-.255H3.258v3.57h1.64Zm-.16-2.07h-.895v-1.02h.905c.24 0 .41.04.52.12.1.075.155.2.155.37 0 .185-.054.32-.154.405-.106.08-.28.125-.53.125Zm.075 1.59h-.97v-1.11h.985c.26 0 .45.045.57.135.115.09.175.235.175.44 0 .2-.08.34-.24.43-.125.07-.3.105-.52.105Zm3.375.48v-3.07h1.17v-.5H6.434v.5h1.17v3.07h.585Zm2.18 0v-2.61h.02l1.785 2.61h.57v-3.57h-.59V8.79h-.02l-1.764-2.575h-.585v3.57h.585Z",
+    strokeWidth: 0.1,
+    fill: "currentColor",
+    fillRule: "nonzero"
+  }))));
+};
+
+export { SvgButton as default };
+window.amisEditorVersionInfo={version:'1.1.2',buildTime:'2023-10-27'};
